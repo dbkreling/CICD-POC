@@ -28,3 +28,16 @@ If all that is passed, it will then go ahead and put that change into production
 The implementation approach I took was from simplest to more complex. This has many benefits, as you can catch and solve bugs as soon as they are introduced.
 
 The tools are EC2, S3 for the instances, CodeBuild and CodeDeploy, along with CodePipeline in the end.
+
+## Results
+
+* Two-Step Pipeline created
+
+![Two Step Pipeline](/images/two_step_pipeline.png)
+
+* EC2 Cloud instances 
+![Cloud Instances](/images/cloud_instances.png)
+
+* S3 Bucket
+![S3 Code Pipeline](/images/s3_codepipeline.png)
+
